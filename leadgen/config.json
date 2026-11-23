@@ -1,0 +1,19 @@
+{
+  "daily_target": 10,
+  "max_candidates_per_run": 120,
+  "stale_years": 2,
+  "locations": ["Austin, TX", "Portland, OR", "Denver, CO"],
+  "categories": ["coffee shop", "bakery", "florist", "barber shop", "nail salon", "yoga studio", "family restaurant", "bike shop", "pet grooming", "tattoo studio"],
+  "require_email": true,
+  "opener": "maps",
+  "visit_notes": {},
+  "sender": {
+    "name": "Your Name",
+    "company": "Overfeel",
+    "title": "Designer, Overfeel",
+    "website": "https://overfeel.example",
+    "email": "hello@overfeel.example",
+    "postal_address": "Your business mailing address (required by CAN-SPAM)"
+  },
+  "model": "claude-opus-5-5"
+}
